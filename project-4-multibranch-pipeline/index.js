@@ -15,7 +15,7 @@ app.get("/health", (req, res) => {
   res.status(200).json({
     status: "ok",
     project: "project-4-multibranch-pipeline",
-    message: "Service is not healthy",
+    message: "Service is healthy",
   });
 });
 
