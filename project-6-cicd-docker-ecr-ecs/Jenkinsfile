@@ -4,12 +4,12 @@ pipeline {
     environment {
         AWS_REGION = 'ap-south-1'
         ECR_REGISTRY = '495599738828.dkr.ecr.ap-south-1.amazonaws.com'
-        ECR_REPOSITORY = 'venkatesan004/cicd-node-app'
+        ECR_REPOSITORY = 'durairaj02/cicd-node-app'
         ECS_CLUSTER = 'node-app-cluster-prod'
         ECS_SERVICE = 'node-app-backend-prod-service-nbrky4pb'
         ECS_TASK_DEFINITION = 'node-app-backend-prod'
         IMAGE_TAG = "${BUILD_NUMBER}"
-        EMAIL_TO = "venkatesangunaraj@gmail.com"
+        EMAIL_TO = "sdurairaj298@gmail.com"
     }
     
     stages {
